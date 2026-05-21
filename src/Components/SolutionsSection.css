@@ -23,8 +23,8 @@
 .solutions-section::before {
   content: "";
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   background: rgba(255, 180, 0, 0.08);
   border-radius: 50%;
   filter: blur(140px);
@@ -36,8 +36,8 @@
 .solutions-section::after {
   content: "";
   position: absolute;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   background: rgba(255, 180, 0, 0.06);
   border-radius: 50%;
   filter: blur(120px);
@@ -76,10 +76,10 @@
 
 /* TITLE */
 .section-title {
-  font-size: 70px;
-  font-weight: 900;
+  font-size: 50px;
+  font-weight: 700;
   line-height: 1.1;
-  max-width: 900px;
+  max-width: 700px;
   margin-bottom: 70px;
   position: relative;
   z-index: 5;
@@ -102,7 +102,7 @@
 
 .small-text {
   color: #ffb400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.8;
   margin-bottom: 35px;
   font-weight: 600;
@@ -197,7 +197,7 @@
 }
 
 .solution-card h2 {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.5;
   font-weight: 700;
   position: relative;
@@ -253,7 +253,7 @@
 /* RESPONSIVE */
 @media (max-width: 1100px) {
   .section-title {
-    font-size: 55px;
+    font-size: 40px;
   }
 
   .solutions-container {
@@ -293,6 +293,6 @@
 
   .start-btn {
     padding: 12px 22px;
-    font-size: 14px;
+    font-size: 12gipx;
   }
 }

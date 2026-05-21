@@ -49,8 +49,9 @@ const HeroSection = () => {
           <h2>SCRAWL</h2>
           <h2 className="pink">CYBite</h2>
           <h2>EQUISTRIDE</h2>
-        </div>
-      </div>
+        </div> 
+        
+      </div> 
 
       {/* Glow Effect */}
       <div className="glow"></div>
