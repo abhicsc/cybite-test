@@ -93,7 +93,7 @@
 }
 
 .project-content h1 {
-  font-size: 92px;
+  font-size: 80px;
   font-weight: 900;
   color: white;
   margin-bottom: 65px;
@@ -116,8 +116,8 @@
 ====================================================== */
 
 .face-card {
-  width: 360px;
-  height: 360px;
+  width: 330px;
+  height: 330px;
   margin: auto;
   background: linear-gradient(135deg, #ffb400, #ff9500);
   border-radius: 32px;

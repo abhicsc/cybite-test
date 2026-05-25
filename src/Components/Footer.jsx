@@ -23,9 +23,15 @@ function Footer() {
         {/* Left Section */}
         <div className="footer-left">
 
-          <div className="footer-logo">
-            G
-          </div>
+        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+        <img src="/GGM-logo.png" alt="" style={{
+           width: "60px",
+            height: "60px",
+            borderRadius: "50%",
+            objectFit: "cover",
+             border: "2px solid #7c3aed",
+           }} /> 
+        </div>
 
           <h3>
             Your Success, Our Passion

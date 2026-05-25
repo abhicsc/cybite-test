@@ -6,8 +6,14 @@ const HeroSection = () => {
     <section className="hero">
       {/* Navbar */}
       <nav className="navbar">
-        <div className="logo">
-          <span>G</span>
+        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+        <img src="/GGM-logo.png" alt="" style={{
+           width: "60px",
+            height: "60px",
+            borderRadius: "50%",
+            objectFit: "cover",
+             border: "2px solid #7c3aed",
+           }} /> 
         </div>
 
         <ul className="nav-links">
@@ -50,7 +56,7 @@ const HeroSection = () => {
           <h2 className="pink">CYBite</h2>
           <h2>EQUISTRIDE</h2>
         </div> 
-        
+
       </div> 
 
       {/* Glow Effect */}

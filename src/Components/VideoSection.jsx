@@ -15,7 +15,7 @@ const VideoSection = () => {
           playsInline
           className="bg-video"
         >
-          <source src="/horse-video.mp4" type="video/mp4" />
+          <source src="/cybite-video.mp4" type="video/mp4" />
         </video>
 
         {/* Overlay */}
